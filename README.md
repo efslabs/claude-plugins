@@ -7,8 +7,11 @@ skills, plus the marketplace manifest so it can be installed anywhere.
 
 ```
 /plugin marketplace add efslabs/claude-plugins
-/plugin install emily@claude-plugins
+/plugin install emily@efslabs
 ```
+
+(The marketplace is named `efslabs`, not `claude-plugins` — marketplace
+names containing "claude" are rejected as impersonating official ones.)
 
 For Claude Code on the web, declare the plugin in a repo's
 `.claude/settings.json` so cloud sessions fetch it at start.
