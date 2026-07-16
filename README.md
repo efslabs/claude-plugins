@@ -21,6 +21,7 @@ For Claude Code on the web, declare the plugin in a repo's
 | Skill | Invoke as | What it does |
 |---|---|---|
 | [batch-prs](skills/batch-prs/SKILL.md) | `/emily:batch-prs` | Work through a list of changes as a sequence of agent-implemented PRs: chunk, dispatch, review, auto-merge when clean, report progress between rounds. |
+| [note](skills/note/SKILL.md) | `/emily:note` | Leave a note for future Emily — acknowledge and store it, never act on it, recap prior notes from the session. |
 
 ## Layout
 
