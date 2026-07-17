@@ -5,8 +5,10 @@ description: Summarize this session and current state as terse bullets under opt
 
 # recap
 
-Cold-open status: readable with no scrollback. If in a git repo, check
-`git status`/`diff`/`log` first — ground it in actual state, not memory.
+Cold-open status: readable with no scrollback. Base it primarily on this
+session's chat. If in a git repo, a quick `git status`/`diff`/`log` can
+catch uncommitted or committed work the chat glossed over — use it to
+supplement the recap, not replace it.
 
 ## Output
 
@@ -28,12 +30,6 @@ Only print headings with real content — omit empty ones, never write "None".
 ## Open questions
 - ...
 ```
-
-- **Context** — task/repo/branch, 1-2 bullets max.
-- **Done** — concrete completed work (commits, fixes, merges).
-- **In progress** — what's mid-flight, including uncommitted edits.
-- **Next** — concrete next actions, ordered if it matters.
-- **Open questions** — anything blocked on the user.
 
 Bullets only, one line each. No preamble, no closing summary, no follow-up
 offer. Well under 10 bullets total unless the session truly warrants more.
