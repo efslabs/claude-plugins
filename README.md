@@ -21,6 +21,7 @@ For Claude Code on the web, declare the plugin in a repo's
 | Skill | Invoke as | What it does |
 |---|---|---|
 | [batch-prs](skills/batch-prs/SKILL.md) | `/emily:batch-prs` | Work through a list of changes as a sequence of agent-implemented PRs: chunk, dispatch, review, auto-merge when clean, report progress between rounds. |
+| [merge-and-fix-conflicts](skills/merge-and-fix-conflicts/SKILL.md) | `/emily:merge-and-fix-conflicts` | Merge a GitHub PR; if blocked by conflicts, check out the branch, resolve them, push, and merge. |
 | [note](skills/note/SKILL.md) | `/emily:note` | Leave a note for future Emily — acknowledge and store it, never act on it, recap prior notes from the session. |
 | [recap](skills/recap/SKILL.md) | `/emily:recap` | Summarize this session and current state as terse bullets (Context, Done, In progress, Next, Open questions). |
 
