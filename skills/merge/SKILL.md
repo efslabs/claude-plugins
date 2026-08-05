@@ -1,11 +1,14 @@
 ---
-name: merge-and-fix-conflicts
-description: Merge a GitHub PR; if it's blocked by conflicts, check out the branch, resolve them, push, and merge. Use for "merge PR(s)", "merge #123", "merge and fix conflicts". Trigger on "/merge-and-fix-conflicts".
+name: merge
+description: Merge a GitHub PR; if it's blocked by conflicts, check out the branch, resolve them, push, and merge. Use for "merge PR(s)", "merge #123", "merge and fix conflicts". Trigger on "/merge".
 ---
 
-# merge-and-fix-conflicts
+# merge
 
 Invoking this is authorization to merge — don't ask again once it's clean.
+This is the one place that owns "merge a PR, resolving conflicts if
+blocked"; other skills (e.g. `build`) delegate their merge step here
+instead of reimplementing it.
 
 1. Identify the PR (from chat, args, etc.). If unclear, ask.
 2. `gh pr view <PR> --json mergeable` — if `MERGEABLE`, skip to step 4.
