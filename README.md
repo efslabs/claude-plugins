@@ -23,7 +23,7 @@ For Claude Code on the web, declare the plugin in a repo's
 | [build](skills/build/SKILL.md) | `/emily:build` | Work through a list of changes as a sequence of agent-implemented PRs: chunk, dispatch, review (optionally with dedicated review/test agents), fix or re-dispatch, merge via `merge`. |
 | [merge](skills/merge/SKILL.md) | `/emily:merge` | Merge a GitHub PR; if blocked by conflicts, check out the branch, resolve them, push, and merge. |
 | [note-to-self](skills/note-to-self/SKILL.md) | `/emily:note-to-self` | Leave a note for future Emily — acknowledge and store it, never act on it, recap prior notes from the session. |
-| [summarize-session](skills/summarize-session/SKILL.md) | `/emily:summarize-session` | Summarize this session and current state as terse bullets (Context, Done, In progress, Next, Open questions). |
+| [session-status](skills/session-status/SKILL.md) | `/emily:session-status` | Summarize this session and current state as terse bullets — what it's about, what's done/in progress/next, whatever fits the conversation. |
 
 ## Layout
 
