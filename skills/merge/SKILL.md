@@ -1,6 +1,7 @@
 ---
 name: merge
 description: Merge a GitHub PR; if it's blocked by conflicts, check out the branch, resolve them, push, and merge. Use for "merge PR(s)", "merge #123", "merge and fix conflicts". Trigger on "/merge".
+surfaces: code
 ---
 
 # merge
