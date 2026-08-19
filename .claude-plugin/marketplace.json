@@ -1,11 +1,13 @@
 {
   "name": "efslabs",
-  "owner": { "name": "Emily Stangland" },
+  "owner": {
+    "name": "Emily Stangland"
+  },
   "plugins": [
     {
       "name": "emily",
       "source": "./",
-      "description": "Emily's personal Claude Code skills (build, merge, note-to-self, session-status)"
+      "description": "Emily's personal Claude skills"
     }
   ]
 }

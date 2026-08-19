@@ -1,6 +1,7 @@
 ---
 name: build
 description: Turn a list of requested changes into shipped PRs — chunk the work, dispatch agents to implement, review the diff yourself (optionally dispatching separate review/test agents for complicated changes), fix or re-dispatch until it's clean, then merge. Use when the user lists changes to make and wants them built and shipped ("here are the next changes", "build these", "work through this list", "/build").
+surfaces: code
 ---
 
 # build — dispatch / review / fix / merge loop
